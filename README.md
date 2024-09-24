@@ -33,13 +33,17 @@ O Log Viewer é uma aplicação que permite visualizar logs em tempo real com um
   python -m venv venv
   ```
 3. **Ative o ambiente virtual:**:
-  No Windows
+  No Windows (Git Bash)
+  ```
+  source venv/Scripts/activate
+  ```
+  No Windows (cmd)
   ```
   venv\Scripts\activate
   ```
-  No Linux ou MacOS:
+  PowerShell
   ```
-  source venv/bin/activate
+  .\venv\Scripts\Activate.ps1
   ```
 4. **Instale as dependências:**:
   ```
@@ -53,11 +57,12 @@ O Log Viewer é uma aplicação que permite visualizar logs em tempo real com um
 
 ## Enviando e Obtendo Logs
 
-**Para enviar logs, você pode usar um comando curl**
+**Para enviar logs, você pode usar um comando curl (Acesse http://127.0.0.1:5001/logs) para vizualizar os logs enviados por esse comando**
   ```
   curl -X POST http://127.0.0.1:5001/log -H "Content-Type: application/json" -d '{"message": "Log de teste recebido 1"}'
 
-  ``` 
+  ```
+
 **Para buscar logs, use:**
   ```
   curl http://127.0.0.1:5001/logs
