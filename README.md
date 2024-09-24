@@ -64,4 +64,4 @@ O Log Viewer é uma aplicação que permite visualizar logs em tempo real com um
   ``` 
 ## Executável
 
-Baixe o executácel por aqui [Link]()
+Baixe o executácel por aqui [Link](https://github.com/Yanfelipe9/flet-log-viewer/releases/download/v1.0/main.exe)
