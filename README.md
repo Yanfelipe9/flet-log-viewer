@@ -57,7 +57,7 @@ O Log Viewer é uma aplicação que permite visualizar logs em tempo real com um
 
 ## Enviando e Obtendo Logs
 
-**Para enviar logs, você pode usar um comando curl (Acesse http://127.0.0.1:5001/logs) para vizualizar os logs enviados por esse comando**
+**Para enviar logs, você pode usar um comando curl e para vizualizar os logs enviados por esse comando vá para (http://127.0.0.1:5001/logs)**
   ```
   curl -X POST http://127.0.0.1:5001/log -H "Content-Type: application/json" -d '{"message": "Log de teste recebido 1"}'
 
