@@ -24,10 +24,10 @@ O Log Viewer é uma aplicação que permite visualizar logs em tempo real com um
 ## Siga as etapas abaixo para configurar e executar o projeto em sua máquina local.
 
 1. **Clone o Repositório**:
-   ```
+      ```
    git clone 
    cd flet
-  ```
+     ```
 2. **Crie um ambiente virtual:**:
   ```
   python -m venv venv
