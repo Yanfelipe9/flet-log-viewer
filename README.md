@@ -25,7 +25,7 @@ O Log Viewer é uma aplicação que permite visualizar logs em tempo real com um
 
 1. **Clone o Repositório**:
       ```
-   git clone 
+   git clone https://github.com/Yanfelipe9/flet-log-viewer.git
    cd flet
      ```
 2. **Crie um ambiente virtual:**:
